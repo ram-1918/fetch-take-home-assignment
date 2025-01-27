@@ -50,5 +50,181 @@
       }
     ],
     "total": "9.00"
+  },
+  {
+    "retailer": "Aldi",
+    "purchaseDate": "2022-12-25",
+    "purchaseTime": "11:05",
+    "items": [
+      {
+        "shortDescription": "Milk 1 Gallon",
+        "price": "2.49"
+      },
+      {
+        "shortDescription": "Eggs 12 Count",
+        "price": "1.99"
+      },
+      {
+        "shortDescription": "Bread Loaf",
+        "price": "1.29"
+      },
+      {
+        "shortDescription": "Frozen Pizza",
+        "price": "3.99"
+      },
+      {
+        "shortDescription": "Chocolate Bar",
+        "price": "0.99"
+      }
+    ],
+    "total": "10.75"
+  },
+
+  {
+    "retailer": "Trader Joe's",
+    "purchaseDate": "2022-11-12",
+    "purchaseTime": "12:10",
+    "items": [
+      {
+        "shortDescription": "Frozen Mandarin Orange Chicken",
+        "price": "4.99"
+      },
+      {
+        "shortDescription": "Organic Brown Rice",
+        "price": "2.99"
+      },
+      {
+        "shortDescription": "Dark Roast Coffee",
+        "price": "6.99"
+      },
+      {
+        "shortDescription": "Cookie Butter",
+        "price": "3.99"
+      },
+      {
+        "shortDescription": "Cauliflower Gnocchi",
+        "price": "2.99"
+      }
+    ],
+    "total": "21.95"
+  },
+
+  {
+    "retailer": "Whole Foods",
+    "purchaseDate": "2022-09-05",
+    "purchaseTime": "16:20",
+    "items": [
+      {
+        "shortDescription": "Organic Apples 1LB",
+        "price": "3.99"
+      },
+      {
+        "shortDescription": "Almond Milk 1/2 Gallon",
+        "price": "4.49"
+      },
+      {
+        "shortDescription": "Quinoa 1LB",
+        "price": "5.99"
+      },
+      {
+        "shortDescription": "Kombucha 16 OZ",
+        "price": "3.99"
+      },
+      {
+        "shortDescription": "Dark Chocolate Bar",
+        "price": "2.99"
+      }
+    ],
+    "total": "21.45"
+  },
+
+  {
+    "retailer": "Kroger",
+    "purchaseDate": "2022-07-10",
+    "purchaseTime": "09:15",
+    "items": [
+      {
+        "shortDescription": "Kroger Bread",
+        "price": "1.99"
+      },
+      {
+        "shortDescription": "Avocados 3 Count",
+        "price": "2.99"
+      },
+      {
+        "shortDescription": "Coca-Cola 12 Pack",
+        "price": "4.99"
+      },
+      {
+        "shortDescription": "Ground Beef 1LB",
+        "price": "5.99"
+      },
+      {
+        "shortDescription": "Kroger Ice Cream",
+        "price": "3.49"
+      }
+    ],
+    "total": "19.45"
+  },
+
+  {
+    "retailer": "Costco",
+    "purchaseDate": "2022-05-20",
+    "purchaseTime": "14:30",
+    "items": [
+      {
+        "shortDescription": "Rotisserie Chicken",
+        "price": "4.99"
+      },
+
+      {
+        "shortDescription": "Kirkland Signature Water 40 Pack",
+        "price": "3.99"
+      },
+      {
+        "shortDescription": "Organic Strawberries 2LB",
+        "price": "7.99"
+      },
+      {
+        "shortDescription": "Cheerios 2-Pack",
+        "price": "8.99"
+      },
+      {
+        "shortDescription": "Toilet Paper 30 Rolls",
+        "price": "19.99"
+      }
+    ],
+    "total": "45.95"
+  },
+
+  {
+    "retailer": "Walmart",
+    "purchaseDate": "2022-03-15",
+    "purchaseTime": "10:45",
+    "items": [
+      {
+        "shortDescription": "Great Value Milk",
+        "price": "2.99"
+      },
+
+      {
+        "shortDescription": "Bananas",
+        "price": "0.49"
+      },
+
+      {
+        "shortDescription": "Lay's Chips",
+        "price": "3.99"
+      },
+      {
+        "shortDescription": "Tide Pods",
+        "price": "12.99"
+      },
+      {
+        "shortDescription": "Bounty Paper Towels",
+        "price": "5.99"
+      }
+    ],
+    "total": "26.45"
   }
 ]
