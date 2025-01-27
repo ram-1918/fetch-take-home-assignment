@@ -1,0 +1,339 @@
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:30:32] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:30:32] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:30:32] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:30:32] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:30:56] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:30:56] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:30:56] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:30:56] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information! {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:31:16] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information! {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:31:16] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information! {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:31:16] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information! {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:31:16] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/tests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:32:55] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/tests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information! {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:33:13] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information! {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:33:13] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information! {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:33:13] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: UUID Generation!
+INFO:__main__:STEP: Process the validated receipt data to obtain points!
+INFO:__main__:Points for RULE 1: 6
+INFO:__main__:Points for RULE 2: 0
+INFO:__main__:Points for RULE 3: 0
+INFO:__main__:Points for RULE 4: 10
+INFO:__main__:Points for RULE 5: 6
+INFO:__main__:Points for RULE 6: 0
+INFO:__main__:Points for RULE 7: 6
+INFO:__main__:Points for RULE 8: 0
+INFO:__main__:STEP: Store ID and the total points obtained for the receipt on Redis!
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:33:13] "POST /receipt/process HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/tests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:__main__:STEP: Retrieve points associated with the ID from Redis
+INFO:__main__:STEP: Error occured while points retrieval for the ID e81edc82-48e2-44f6-8979-invalid-id
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:33:26] "[33mGET /receipt/e81edc82-48e2-44f6-8979-invalid-id/points HTTP/1.1[0m" 404 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: UUID Generation!
+INFO:__main__:STEP: Process the validated receipt data to obtain points!
+INFO:__main__:Points for RULE 1: 6
+INFO:__main__:Points for RULE 2: 0
+INFO:__main__:Points for RULE 3: 0
+INFO:__main__:Points for RULE 4: 10
+INFO:__main__:Points for RULE 5: 6
+INFO:__main__:Points for RULE 6: 0
+INFO:__main__:Points for RULE 7: 6
+INFO:__main__:Points for RULE 8: 0
+INFO:__main__:STEP: Store ID and the total points obtained for the receipt on Redis!
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:33:26] "POST /receipt/process HTTP/1.1" 200 -
+INFO:__main__:STEP: Retrieve points associated with the ID from Redis
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:33:26] "GET /receipt/361ecafb-c7c2-45b6-a74e-37adcc577892/points HTTP/1.1" 200 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information! {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:33:26] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information! {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:33:26] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information! {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:33:26] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: UUID Generation!
+INFO:__main__:STEP: Process the validated receipt data to obtain points!
+INFO:__main__:Points for RULE 1: 6
+INFO:__main__:Points for RULE 2: 0
+INFO:__main__:Points for RULE 3: 0
+INFO:__main__:Points for RULE 4: 10
+INFO:__main__:Points for RULE 5: 6
+INFO:__main__:Points for RULE 6: 0
+INFO:__main__:Points for RULE 7: 6
+INFO:__main__:Points for RULE 8: 0
+INFO:__main__:STEP: Store ID and the total points obtained for the receipt on Redis!
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:33:26] "POST /receipt/process HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/tests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/tests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/tests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/tests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:__main__:STEP: Retrieve points associated with the ID from Redis
+INFO:__main__:STEP: Error occured while points retrieval for the ID e81edc82-48e2-44f6-8979-invalid-id
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:36:56] "[33mGET /receipt/e81edc82-48e2-44f6-8979-invalid-id/points HTTP/1.1[0m" 404 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: UUID Generation!
+INFO:__main__:STEP: Process the validated receipt data to obtain points!
+INFO:__main__:Points for RULE 1: 14
+INFO:__main__:Points for RULE 2: 50
+INFO:__main__:Points for RULE 3: 25
+INFO:__main__:Points for RULE 4: 10
+INFO:__main__:Points for RULE 5: 0
+INFO:__main__:Points for RULE 6: 0
+INFO:__main__:Points for RULE 7: 0
+INFO:__main__:Points for RULE 8: 10
+INFO:__main__:STEP: Store ID and the total points obtained for the receipt on Redis!
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:36:56] "POST /receipt/process HTTP/1.1" 200 -
+INFO:__main__:STEP: Retrieve points associated with the ID from Redis
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:36:56] "GET /receipt/f5799baa-cc71-40c7-80ff-9c39d048b463/points HTTP/1.1" 200 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information, {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:36:56] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information, {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:36:56] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information, {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:36:56] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: UUID Generation!
+INFO:__main__:STEP: Process the validated receipt data to obtain points!
+INFO:__main__:Points for RULE 1: 14
+INFO:__main__:Points for RULE 2: 50
+INFO:__main__:Points for RULE 3: 25
+INFO:__main__:Points for RULE 4: 10
+INFO:__main__:Points for RULE 5: 0
+INFO:__main__:Points for RULE 6: 0
+INFO:__main__:Points for RULE 7: 0
+INFO:__main__:Points for RULE 8: 10
+INFO:__main__:STEP: Store ID and the total points obtained for the receipt on Redis!
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:36:56] "POST /receipt/process HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/tests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/tests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:__main__:STEP: Retrieve points associated with the ID from Redis
+INFO:__main__:STEP: Error occured while points retrieval for the ID e81edc82-48e2-44f6-8979-invalid-id
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:38:26] "[33mGET /receipt/e81edc82-48e2-44f6-8979-invalid-id/points HTTP/1.1[0m" 404 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: UUID Generation!
+INFO:__main__:STEP: Process the validated receipt data to obtain points!
+INFO:__main__:Points for RULE 1: 14
+INFO:__main__:Points for RULE 2: 50
+INFO:__main__:Points for RULE 3: 25
+INFO:__main__:Points for RULE 4: 10
+INFO:__main__:Points for RULE 5: 0
+INFO:__main__:Points for RULE 6: 0
+INFO:__main__:Points for RULE 7: 0
+INFO:__main__:Points for RULE 8: 10
+INFO:__main__:STEP: Store ID and the total points obtained for the receipt on Redis!
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:38:26] "POST /receipt/process HTTP/1.1" 200 -
+INFO:__main__:STEP: Retrieve points associated with the ID from Redis
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:38:26] "GET /receipt/f3762928-3253-4827-b665-64b2f85df81b/points HTTP/1.1" 200 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information, {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:38:26] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information, {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:38:26] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: Error occured while validating Receipt Information, {'_schema': ['Invalid input type.']}
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:38:26] "[31m[1mPOST /receipt/process HTTP/1.1[0m" 400 -
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: UUID Generation!
+INFO:__main__:STEP: Process the validated receipt data to obtain points!
+INFO:__main__:Points for RULE 1: 14
+INFO:__main__:Points for RULE 2: 50
+INFO:__main__:Points for RULE 3: 25
+INFO:__main__:Points for RULE 4: 10
+INFO:__main__:Points for RULE 5: 0
+INFO:__main__:Points for RULE 6: 0
+INFO:__main__:Points for RULE 7: 0
+INFO:__main__:Points for RULE 8: 10
+INFO:__main__:STEP: Store ID and the total points obtained for the receipt on Redis!
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:38:26] "POST /receipt/process HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/tests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: UUID Generation!
+INFO:__main__:STEP: Process the validated receipt data to obtain points!
+INFO:__main__:Points for RULE 1: 7
+INFO:__main__:Points for RULE 2: 0
+INFO:__main__:Points for RULE 3: 0
+INFO:__main__:Points for RULE 4: 5
+INFO:__main__:Points for RULE 5: 0
+INFO:__main__:Points for RULE 6: 0
+INFO:__main__:Points for RULE 7: 6
+INFO:__main__:Points for RULE 8: 10
+INFO:__main__:STEP: Store ID and the total points obtained for the receipt on Redis!
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:39:33] "POST /receipt/process HTTP/1.1" 200 -
+INFO:__main__:STEP: Retrieve points associated with the ID from Redis
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:39:48] "GET /receipt/f39a0c04-e1df-437e-aa3b-3a55e6e20853/points HTTP/1.1" 200 -
+INFO:__main__:STEP: Retrieve points associated with the ID from Redis
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 14:40:23] "GET /receipt/f39a0c04-e1df-437e-aa3b-3a55e6e20853/points HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.150:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.150:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 815-706-600
+INFO:werkzeug: * Detected change in '/Users/ramchandrab/Documents/fetch-take-home-assignment/receipt_processor/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.1.150:5002
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:__main__:A POST HTTP request made for processing a receipt!
+INFO:__main__:STEP: Receipt information validation!
+INFO:__main__:STEP: UUID Generation!
+INFO:__main__:STEP: Process the validated receipt data to obtain points!
+INFO:__main__:Points for RULE 1: 6
+INFO:__main__:Points for RULE 2: 0
+INFO:__main__:Points for RULE 3: 0
+INFO:__main__:Points for RULE 4: 10
+INFO:__main__:Points for RULE 5: 6
+INFO:__main__:Points for RULE 6: 0
+INFO:__main__:Points for RULE 7: 6
+INFO:__main__:Points for RULE 8: 0
+INFO:__main__:STEP: Store ID and the total points obtained for the receipt on Redis!
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 16:40:16] "POST /receipt/process HTTP/1.1" 200 -
+INFO:__main__:STEP: Retrieve points associated with the ID from Redis
+INFO:__main__:STEP: Propagate the response!
+INFO:werkzeug:127.0.0.1 - - [27/Jan/2025 16:40:33] "GET /receipt/44dc95cc-88d0-4d40-800d-30938e0df99a/points HTTP/1.1" 200 -
