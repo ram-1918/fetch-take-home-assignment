@@ -2,11 +2,18 @@
 
 Hi Team,
 
-Thank you for this wonderful opportunity! I thoroughly enjoyed working on the **Receipt Processor** project. I completed the project in **three focused 1-hour sessions** over a 24-hour period.
-
-Below, I’ve shared details about the project, how to run it, and the technologies I used.
+Thank you for this wonderful opportunity! I thoroughly enjoyed working on the **Receipt Processor** project. Below, I’ve shared details about the project, how to run it, and the technologies I used.
 
 ---
+
+# Receipt Processor
+
+## Overview
+This is a Flask-based web service that processes receipts and calculates reward points based on predefined rules.
+
+## Prerequisites
+- Docker ([Install Docker](https://docs.docker.com/get-docker/))
+- Docker Compose ([Install Docker Compose](https://docs.docker.com/compose/install/))
 
 ### **How to Run the Application**
 There are two ways to run the application: **using Docker** or **manually**.
@@ -19,7 +26,7 @@ There are two ways to run the application: **using Docker** or **manually**.
 2. Start the application:
    ```
    docker compose up
-   ```  
+   ```
 
 #### **Option 2: Running Manually**
 1. Navigate to the project folder: 
@@ -40,19 +47,19 @@ There are two ways to run the application: **using Docker** or **manually**.
 
 ---
 
-### **How to Access the Application**
+### **How to Access the Application: API Endpoints**
 1. Check if the web service is active:
    ```
-   http://127.0.0.1:5002/health
+   GET http://127.0.0.1:5002/health
    ```  
 2. If the service is active:  
    - **Process a receipt**: Accepts JSON data for a purchase receipt and returns an id.
      ```
-     http://127.0.0.1:5002/receipt/process
+     POST http://127.0.0.1:5002/receipt/process
      ```  
    - **Get points for a receipt**: Returns the total points associated with the given id.
      ```
-     http://127.0.0.1:5002/receipt/{<replace-the-id-generated>}/points
+     GET http://127.0.0.1:5002/receipt/{id}/points
      ```  
 
 ---
@@ -110,6 +117,21 @@ To ensure the application works as expected, I wrote **unit tests** covering var
 
 ---
 
+### **Stopping the Application**
+To stop the application and remove Docker containers, run:  
+```
+docker compose down
+```
+
+---
+
+### **Troubleshooting**
+- **Port Conflicts:** Change the port in `docker-compose.yml` if 5002 is in use.
+- **Redis Connection Issues:** Check Redis logs using `docker-compose logs redis`.
+- **Application Logs:** Debug issues using `docker-compose logs app`.
+
+---
+
 ### **Conclusion**
 Once again, thank you so much for this opportunity. I’m excited about the next steps and look forward to hearing from you. Please feel free to reach out if you have any questions or need further details.
 
@@ -122,4 +144,5 @@ I used **Notion** to plan and organize my work before starting the project. You 
 ---
 
 Thank you,
+
 Ram Chandra
