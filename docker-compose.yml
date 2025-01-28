@@ -1,14 +1,18 @@
-version: '3'
+version: '3.8'
+
 services:
-  redis:
-    image: redis:latest
-    ports:
-      - "6379:6379"
-  app:
-    image: receipt_processor
+  flask_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "5002:5000"
     environment:
       - REDIS_HOST=redis
     depends_on:
       - redis
+
+  redis:
+    image: "redis:latest"
+    ports:
+      - "6379:6379"
