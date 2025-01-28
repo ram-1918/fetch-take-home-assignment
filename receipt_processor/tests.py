@@ -149,28 +149,28 @@ class TestEndpoints(unittest.TestCase):
 
     # /receipt/process
     def test_post_points_valid_receipt(self):
-        response = self.client.post(f'{BASE_URL}/receipt/process', json=valid_receipt)
+        response = self.client.post(f'{BASE_URL}/receipts/process', json=valid_receipt)
         self.assertEqual(response.status_code, 200, "Expected 200 for valid receipt")
 
         json_data = response.json()
         self.assertIn("id", json_data, "Response JSON should contain 'id'")
 
     def test_post_points_invalid_receipt1(self):
-        response = self.client.post(f'{BASE_URL}/receipt/process', json=invalid_receipt_missing_feild)
+        response = self.client.post(f'{BASE_URL}/receipts/process', json=invalid_receipt_missing_feild)
         self.assertEqual(response.status_code, 400, "Expected 400 for invalid data")
 
         json_data = response.json()
         self.assertIn("error", json_data, "Response JSON should contain 'error' for invalid data")
 
     def test_post_points_invalid_receipt2(self):
-        response = self.client.post(f'{BASE_URL}/receipt/process', json=invalid_receipt_misspelled_feild)
+        response = self.client.post(f'{BASE_URL}/receipts/process', json=invalid_receipt_misspelled_feild)
         self.assertEqual(response.status_code, 400)
 
         json_data = response.json()
         self.assertIn("error", json_data)
 
     def test_post_points_invalid_receipt3(self):
-        response = self.client.post(f'{BASE_URL}/receipt/process', json=invalid_receipt_misspelled_item_feild)
+        response = self.client.post(f'{BASE_URL}/receipts/process', json=invalid_receipt_misspelled_item_feild)
         self.assertEqual(response.status_code, 400)
 
         json_data = response.json()
@@ -178,14 +178,14 @@ class TestEndpoints(unittest.TestCase):
 
     # /receipt/{id}/process
     def test_get_points_valid(self):
-        process_response = self.client.post(f'{BASE_URL}/receipt/process', json=valid_receipt)
+        process_response = self.client.post(f'{BASE_URL}/receipts/process', json=valid_receipt)
         self.assertEqual(process_response.status_code, 200, "Expected 200 for valid receipt")
 
         process_json = process_response.json()
         receipt_id = process_json.get("id")
         self.assertIsNotNone(receipt_id, "Response should contain 'id' key")
 
-        response = self.client.get(f'{BASE_URL}/receipt/{receipt_id}/points')
+        response = self.client.get(f'{BASE_URL}/receipts/{receipt_id}/points')
         self.assertEqual(response.status_code, 200)
 
         json_data = response.json()
@@ -194,7 +194,7 @@ class TestEndpoints(unittest.TestCase):
 
     def test_get_points_invalid_id(self):
         invalid_id = "e81edc82-48e2-44f6-8979-invalid-id"
-        response = self.client.get(f'{BASE_URL}/receipt/{invalid_id}/points')
+        response = self.client.get(f'{BASE_URL}/receipts/{invalid_id}/points')
         self.assertEqual(response.status_code, 404, "Expected 404 for invalid ID")
 
         json_data = response.json()

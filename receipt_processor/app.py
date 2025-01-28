@@ -21,10 +21,10 @@ except:
     logger.info("Failed to connect with Redis!")
 
 # Endpoints
-@app.route('/receipt/process', methods=['POST'])
+@app.route('/receipts/process', methods=['POST'])
 def post_receipt():
     """
-        POST /receipts
+        POST /receipts/process
         - Receives receipt data as JSON payload.
         - Validates the payload against 'ReceiptSchema' (schema.py). 
             - Raises BadRequest("The receipt is invalid.") if validation fails.
@@ -38,14 +38,14 @@ def post_receipt():
     # Extract the paylaod from the request object
     payload = request.json
 
+    
     # Validate the payload against the schema
     logger.info(f'STEP: Receipt information validation!')
-    
     try:
         validated_data = ReceiptSchema().load(payload)
     except ValidationError as e:
         logger.info(f'STEP: Error occured while validating Receipt Information, {e.messages}')
-        return jsonify({"error": f"The receipt is invalid. {e}"}), 400
+        return jsonify({"error": "The receipt is invalid."}), 400
 
     # If the receipt is valid,
     logger.info(f'STEP: UUID Generation!')
@@ -64,7 +64,7 @@ def post_receipt():
     response_data = {"id": uniqueID}
     return jsonify(response_data), 200
 
-@app.route('/receipt/<id>/points', methods=['GET'])
+@app.route('/receipts/<id>/points', methods=['GET'])
 def get_points(id):
     """
         GET /receipts/{id}/points
