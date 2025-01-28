@@ -17,17 +17,16 @@ This is a Flask-based web service that processes receipts and calculates reward 
 - Ensure to have the following installed:
    - Docker Desktop ([Install Docker](https://docs.docker.com/get-docker/))
    - Docker Compose ([Install Docker Compose](https://docs.docker.com/compose/install/))
-   - IDE: Visual Studio Code or similar
+   - IDE: Visual Studio Code or similar (local terminal also works)
    - Postman login: To test the endpoints
 
-- Docker: Docker Login using `docker login` in the VS Code's terminal
 
 **Project Structure**
 - Main project folder: `fetch-take-home-assignment/receipt_processor/`
 - Entry point for the Web service: `fetch-take-home-assignment/receipt_processor/app.py`
 
 **Steps to Run the Application**
-1. Clone the Repository:
+1. Clone the Repository in either terminal or VS code:
    - Open your terminal and run:
       `git clone https://github.com/ram-1918/fetch-take-home-assignment.git`
 
@@ -39,7 +38,8 @@ This is a Flask-based web service that processes receipts and calculates reward 
 3. There are two ways to Start the Application: **using Docker** or **manually**.
    - **Option 1: Using Docker**
       1. Start the Application:
-         - Run the following command to start the application and Redis:
+         - Ensure to login to Docker using `docker login` in the terminal/VS code terminal
+         - Then, Run the following command to start the application and Redis:
          ```
          docker compose up --build
          ```
