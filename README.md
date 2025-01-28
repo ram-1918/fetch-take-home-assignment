@@ -8,14 +8,15 @@ Thank you for this wonderful opportunity! I thoroughly enjoyed working on the **
 
 # Receipt Processor
 
-## Overview
+### Overview
 This is a Flask-based web service that processes receipts and calculates reward points based on predefined rules.
 
-## Prerequisites
-- Docker ([Install Docker](https://docs.docker.com/get-docker/))
+### Prerequisites
+- Docker Desktop ([Install Docker](https://docs.docker.com/get-docker/))
 - Docker Compose ([Install Docker Compose](https://docs.docker.com/compose/install/))
+- Docker Login using `docker login`
 
-### **How to Run the Application**
+### **How to Run the Application?**
 There are two ways to run the application: **using Docker** or **manually**.
 
 #### **Option 1: Using Docker**
@@ -47,24 +48,75 @@ There are two ways to run the application: **using Docker** or **manually**.
 
 ---
 
-### **How to Access the Application: API Endpoints**
+### **How to Access the Application? API Endpoints**
 1. Check if the web service is active:
    ```
-   GET http://127.0.0.1:5002/health
-   ```  
+   GET 
+   http://127.0.0.1:5002/health
+   ```
+   **Sample Response**
+   ```
+    {
+        "message": "Service is active!"
+    }
+   ```
 2. If the service is active:  
    - **Process a receipt**: Accepts JSON data for a purchase receipt and returns an id.
      ```
-     POST http://127.0.0.1:5002/receipt/process
-     ```  
+     POST 
+     http://127.0.0.1:5002/receipt/process
+     ```
+
+     **Sample Request Body**
+     ```
+        {
+        "retailer": "Target",
+        "purchaseDate": "2022-01-01",
+        "purchaseTime": "13:01",
+        "items": [
+            {
+            "shortDescription": "Mountain Dew 12PK",
+            "price": "6.49"
+            },{
+            "shortDescription": "Emils Cheese Pizza",
+            "price": "12.25"
+            },{
+            "shortDescription": "Knorr Creamy Chicken",
+            "price": "1.26"
+            },{
+            "shortDescription": "Doritos Nacho Cheese",
+            "price": "3.35"
+            },{
+            "shortDescription": "   Klarbrunn 12-PK 12 FL OZ  ",
+            "price": "12.00"
+            }
+        ],
+        "total": "35.35"
+        }
+     ```
+
+     **Sample Response**
+     ```
+        {
+            "id": "be080fd7-5e16-406d-b0fa-71b4e377944f"
+        }
+     ```
+
    - **Get points for a receipt**: Returns the total points associated with the given id.
      ```
-     GET http://127.0.0.1:5002/receipt/{id}/points
-     ```  
+     GET 
+     http://127.0.0.1:5002/receipt/{id}/points
+     ```
+     **Sample Response**
+     ```
+        {
+            "points": 28
+        }
+     ```
 
 ---
 
-### **Tech Stack Used**
+### **Tech Stack Used?**
 - **Programming Language**: Python (I’m comfortable with Python but can also switch to Golang if needed).
 - **Flask**: A lightweight web framework
 - **Redis**: An in-memory data store for fast and efficient data handling.
@@ -74,7 +126,7 @@ There are two ways to run the application: **using Docker** or **manually**.
 
 ---
 
-### **How I Built It**
+### **How I Built It?**
 1. **Flask App Setup with Redis**
    - Created a virtual environment and added dependencies in `requirements.txt`.
    - Installed Flask, Redis, and Marshmallow for data validation.
@@ -87,11 +139,15 @@ There are two ways to run the application: **using Docker** or **manually**.
    - Created a `docker-compose.yml` file to start both the services, `Flask app` and `Redis`.
    - Built the Docker image:
      ```
-     docker build -t receipt_processor:latest .
+     docker build -t ram1918/receipt_processor:latest .
+     ```
+   - Pushed the Docker image:
+     ```
+     docker push ram1918/receipt_processor:latest
      ```
    - Ran the Docker container:
      ```
-     docker run -p 5002:5000 receipt_processor:latest
+     docker run -p 5002:5000 ram1918/receipt_processor:latest
      ```
      *(I used port `5002` because ports `5000` and `5001` were already in use.)*
    - Tested the service to ensure everything works smoothly.
